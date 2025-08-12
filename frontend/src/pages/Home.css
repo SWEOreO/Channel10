@@ -1,0 +1,77 @@
+/* Home.css */
+.home-page-container {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.home-page-section { 
+  position: relative;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 5%;
+}
+.home-background-image { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.home-hero-content {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 400px;
+  text-align: left;
+}
+.home-hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.home-hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.home-shop-button {
+  padding: 10px 20px;
+  border: 1px solid #333;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+.home-featured-section {
+  padding: 40px 5%;
+}
+.home-featured-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.home-featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.home-featured-card {
+  text-align: left;
+}
+.home-featured-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.home-featured-card p {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 5px;
+}
+.home-featured-card h3 {
+  font-size: 18px;
+  line-height: 1.2;
+}
